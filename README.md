@@ -22,6 +22,17 @@ gallery.curate();
     margin-right: 12px;
     margin-left: 0;
 }
+
+///On bigger devices, the feed floats right.
+@media (min-width: 500px) {
+    .curatedElement {
+        margin-left: 24px;
+        margin-right: 0;
+    }
+}
+
+///on smaller devices, swap the left and right padding.
+
 ```
 
 Check joaoritter.com to see it in action. 
